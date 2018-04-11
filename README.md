@@ -36,6 +36,6 @@ HASH TABLE::
 
 -Used to store information about astronauts
 
--hash.cc header file for our "astro" class declaring astronauts with 4-digit ID (int), name (string), health (int), time_on_rocket (float)
+-astro.h header file for our "astro" class declaring astronauts with 4-digit ID (int), name (string), health (int), time_on_rocket (float)
 
 -Associative will be Astro class and key will be ID (int)
