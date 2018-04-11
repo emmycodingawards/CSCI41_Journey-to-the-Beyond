@@ -6,9 +6,9 @@ Mr. Kerney's Guide to Understanding Who-Is-Doing-What::
 Heap:: Preet Jyotpreet
 Hash Table:: Emmy Issa
 Score Count:: Denise Gaona
-Graphical Interface:: Christiana Huiskens 
+Graphical Interface:: Christiana Huiskens
 
-I and Emmy talked about the name of our spaceship and came up with an idea that we can name it "Yenrek XLII." This is Kerney's name written backwards and XLII stands for 42(Kenery's lucky number). Is it okay Denise and Christiana? Feel free to make changes. 
+I and Emmy talked about the name of our spaceship and came up with an idea that we can name it "Yenrek XLII." This is Kerney's name written backwards and XLII stands for 42(Kenery's lucky number) (lol) Is it okay Denise and Christiana? Feel free to make changes. 
 
 
 HEAP:: 
@@ -32,6 +32,7 @@ Graphical Interface::
 
 - untiy/unreal engines for graphics.
 // unity:: According Kerney unity is in 90% c++ and rest c#. Hence, we need to learn new language if we want to use unity.
+//looks like im learning c#
 
  Score Count (In Main) :: 
  
