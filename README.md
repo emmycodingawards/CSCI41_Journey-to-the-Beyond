@@ -14,7 +14,10 @@ Graphical Interface:: Christiana Huiskens
 
 PLANS::
 
+
 HEAP:: 
+
+-Used priority queue from queue STL
 
 -Used to store information about nearby planets(/moons?)
 
@@ -26,3 +29,13 @@ HEAP::
 
 -Heap will update as rocket travels through space and planets are "unlocked" (reached)
 
+
+HASH TABLE::
+
+-Using STL, unordered_map
+
+-Used to store information about astronauts
+
+-hash.cc header file for our "astro" class declaring astronauts with 4-digit ID (int), name (string), health (int), time_on_rocket (float)
+
+-Associative will be Astro class and key will be ID (int)
