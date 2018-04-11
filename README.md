@@ -6,10 +6,9 @@ Mr. Kerney's Guide to Understanding Who-Is-Doing-What::
 Heap:: Preet Jyotpreet
 Hash Table:: Emmy Issa
 Score Count:: Denise Gaona
-(i guess ^^)
 Graphical Interface:: Christiana Huiskens
 
-I and Emmy talked about the name of our spaceship and came up with an idea that we can name it "Yenrek XLII." ( obviously not my idea and did not get aproved my me,might me changed to "MAPLEOFTHEWORLD") This is Kerney's name written backwards and XLII stands for 42(Kenery's lucky number) (lol) Is it okay Denise and Christiana? Feel free to make changes. 
+I and Emmy talked about the name of our spaceship and came up with an idea that we can name it "Yenrek XLII." This is Kerney's name written backwards and XLII stands for 42(Kenery's lucky number) (lol) Is it okay Denise and Christiana? Feel free to make changes. 
 
 
 HEAP:: 
@@ -31,16 +30,16 @@ HASH TABLE::
 
 Graphical Interface:: 
 
-- untiy/unreal engines for graphics.
+- unity/unreal engines for graphics.
 // unity:: According Kerney unity is in 90% c++ and rest c#. Hence, we need to learn new language if we want to use unity.
 //HOW does it incorporate user inputs??
 //looks like im learning c#
 
  Score Count (In Main) :: 
  
- - we are making everything public, so no get/set functions. 
+ - we are making everything public, (lets not) so no get/set functions. //we should be using some private variables
  - keep track of atsro time on rocket // astro can only be there for 6 months. 
- - keep track of astro health. 
+ - keep track of astro health. //How??
  - try making one puzzle of escape velocity. Refer back to Meyers notes ( I believe it v = GM/r^2).
  - keep track of rocket fuel. 
  - keep track of velocity in space.
