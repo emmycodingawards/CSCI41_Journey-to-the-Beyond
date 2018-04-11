@@ -6,9 +6,10 @@ Mr. Kerney's Guide to Understanding Who-Is-Doing-What::
 Heap:: Preet Jyotpreet
 Hash Table:: Emmy Issa
 Score Count:: Denise Gaona
+(i guess ^^)
 Graphical Interface:: Christiana Huiskens
 
-I and Emmy talked about the name of our spaceship and came up with an idea that we can name it "Yenrek XLII." This is Kerney's name written backwards and XLII stands for 42(Kenery's lucky number) (lol) Is it okay Denise and Christiana? Feel free to make changes. 
+I and Emmy talked about the name of our spaceship and came up with an idea that we can name it "Yenrek XLII." ( obviously not my idea and did not get aproved my me,might me changed to "MAPLEOFTHEWORLD") This is Kerney's name written backwards and XLII stands for 42(Kenery's lucky number) (lol) Is it okay Denise and Christiana? Feel free to make changes. 
 
 
 HEAP:: 
