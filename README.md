@@ -32,6 +32,7 @@ Graphical Interface::
 
 - untiy/unreal engines for graphics.
 // unity:: According Kerney unity is in 90% c++ and rest c#. Hence, we need to learn new language if we want to use unity.
+//HOW does it incorporate user inputs??
 //looks like im learning c#
 
  Score Count (In Main) :: 
