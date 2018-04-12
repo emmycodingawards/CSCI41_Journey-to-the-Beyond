@@ -8,16 +8,15 @@
 #include <cstdlib>
 #include <cctype>
 #include "astro.h" 
-
 using namespace std;
-//i want the user to input days!
+
+// FUNCTION THAT KEEPS TRACK OF TIME. i want the user to input days!
 int astrotime ( int days) {
  int convert;
  if ( days < 183) {
  return error;
    else if ( days > 183) {
-    
-    
+    convert = 
     
    }
  } 
