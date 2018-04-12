@@ -10,24 +10,10 @@
 #include "astro.h" 
 using namespace std;
 
-// FUNCTION THAT KEEPS TRACK OF TIME. i want the user to input days!
-int astrotime ( int days) {
- int convert;
- if ( days < 183) {
- return error;
-   else if ( days > 183) {
-    convert = 
-    
-   }
- } 
-return days_n_months;
+//CALCULATE ESCAPE SPEED
+float escape_velocity () {
+ double g =  
 }
-
-
-
-
-
-
 
 int main() {
 
