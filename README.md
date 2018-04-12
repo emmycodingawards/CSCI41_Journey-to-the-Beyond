@@ -1,5 +1,4 @@
-# Journey to the Beyond
-# Travels of the Yenrek XLII
+# Journey to the Beyond - Travels of the Yenrek XLII
 
 
 # Mr. Kerney's Guide to Understanding Who-Is-Doing-What
