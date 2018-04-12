@@ -10,10 +10,17 @@
 
 NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
 
-#HOW TO PLAY:
+# HOW TO PLAY:
 
- - It is the year 2077. Technology has advanced
- User must photograph all 9 planets without running out of supplies and within the time span of 6 months.
+ - It is the year 2077. Technology has advanced so that it is possible to travel to all 9 planets (YES PLUTO IS A PLANET) in a year, given you chose the right variables. 
+ - You will input supplies (water, food, oxygen), velocity, and number of astronauts.
+ - Program will give user amount of fuel (a full tank).
+ - Based on input velocity and a full tank of fuel, program will calculate the escape speed and how long rocket can be in space before it needs to return to Earth for more supplies and fuel.
+ - Based on calculated escape speed, program will tell you if you can leave the Earth's atmosphere successfully or not.
+ - Based on the calculated time, you must decide the route you want to take to reach as many planets as possible.
+ - Warning: The more astronauts you take on board, the faster supplies will run out.
+ - Warning: The faster the speed you travel at, the faster your fuel will run out.
+ - Think wisely about your input values!
 
 # HEAP:
 
