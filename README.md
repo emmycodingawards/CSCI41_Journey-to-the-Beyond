@@ -48,11 +48,6 @@ NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
  
  - Happening in main
  - All public variables for the sake of easiness
- - Keep track of astronaut time on rocket. They can only be there for six months
- - Keep track of astronaut health //We need to figure out what affects astronaut health if we want to do this - EI
- - Keep track of rocket fuel
- - Keep track of velocity in space
- - Keep track of general supplies (food and oxygen)
- - Make a function using escape velocity: v = GM/r^2
- 
+ - Keep track of: days, rocket fuel, velocity, general supplies (food, water, oxygen)
+ - Functions: escape speed, gravitational pull of planets, distance travelled, acceleration
  
