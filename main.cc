@@ -8,8 +8,12 @@
 #include <cstdlib>
 #include <cctype>
 #include "astro.h" 
-
 using namespace std;
+
+
+
+//MATHEMATICAL FUNCTIONS
+
 //i want the user to input days!
 int astrotime ( int days) {
  int convert;
@@ -20,6 +24,7 @@ int astrotime ( int days) {
 return days_n_months;
 }
 
+//Function relating days to months
 
 
 
@@ -27,7 +32,8 @@ return days_n_months;
 
 
 int main() {
+float velocity = 0;
+int supplies = 0;
 
 
 }
-djhf
