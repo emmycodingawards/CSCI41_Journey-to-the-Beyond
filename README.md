@@ -40,7 +40,7 @@ NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
  - Keep track of astronaut health //We need to figure out what affects astronaut health if we want to do this - EI
  - Keep track of rocket fuel
  - Keep track of velocity in space
- - Keep track of general supplies
+ - Keep track of general supplies (food and oxygen)
  - Make a function using escape velocity: v = GM/r^2
  
  
