@@ -10,6 +10,11 @@
 
 NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
 
+#HOW TO PLAY:
+
+ - It is the year 2077. Technology has advanced
+ User must photograph all 9 planets without running out of supplies and within the time span of 6 months.
+
 # HEAP:
 
 - Use Priority queue from queue STL
