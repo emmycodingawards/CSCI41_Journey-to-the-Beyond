@@ -3,15 +3,15 @@
 
 Mr. Kerney's Guide to Understanding Who-Is-Doing-What::
 
-Heap:: Preet Jyotpreet
-Hash Table:: Emmy Issa
-Score Count:: Denise Gaona
-Graphical Interface:: Christiana Huiskens
+Heap: Preet Jyotpreet
+Hash Table:Emmy Issa
+Score Count: Denise Gaona
+Graphical Interface: Christiana Huiskens
 
 I and Emmy talked about the name of our spaceship and came up with an idea that we can name it "Yenrek XLII." This is Kerney's name written backwards and XLII stands for 42(Kenery's lucky number) (lol) Is it okay Denise and Christiana? Feel free to make changes. 
 
 
-HEAP:: 
+HEAP:
 
 -Used priority queue from queue STL
 -Used to store information about nearby planets(/moons?)
@@ -21,7 +21,7 @@ HEAP::
 -Heap will update as rocket travels through space and planets are "unlocked" (reached)
 
 
-HASH TABLE::
+HASH TABLE:
 
 -Using STL, unordered_map
 -Used to store information about astronauts
