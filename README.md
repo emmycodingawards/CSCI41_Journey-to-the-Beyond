@@ -1,12 +1,13 @@
-# CSCI41_ScienceSim
+# CSCI41_Journey-to-the-Beyond
+# Travels of the Yenrek XLII
 
 
 Mr. Kerney's Guide to Understanding Who-Is-Doing-What
 
-Heap: Preet Jyotpreet
-Hash Table: Emmy Issa
-Score Count: Denise Gaona
-Graphical Interface: Christiana Huiskens
+ - Heap: Preet Jyotpreet
+ - Hash Table: Emmy Issa
+ - Score Count: Denise Gaona
+ - Graphical Interface: Christiana Huiskens
 
 NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
 
