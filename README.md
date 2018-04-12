@@ -11,11 +11,16 @@ Graphical Interface: Christiana Huiskens
 I and Emmy talked about the name of our spaceship and came up with an idea that we can name it "Yenrek XLII." This is Kerney's name written backwards and XLII stands for 42(Kenery's lucky number) (lol) Is it okay Denise and Christiana? Feel free to make changes. 
 
 
-HEAP:
+HEAP::
 
+- Use Priority queue fron queue STL
+- Use this to store information about nearby planets( /moons?)
+- Minimum heap (with min as the root)
+- Root will be the Planet that is nearest the rocket. Program will update the user as to which planet is nearest the rocket in "live" time.
+- Once rocket has passed a planet, its distance will be set to 10x its last distance. This allows the planet to still be stored in the heap, but all the way in bottom.
+- Heap will update as rocket travels through space and planets are "unlocked" (reached)
 
-
-
+ 
 HASH TABLE:
 
 -Using STL, unordered_map
