@@ -13,9 +13,9 @@ using namespace std;
 //i want the user to input days!
 int astrotime ( int days) {
  int convert;
- if ( days > 182.5) {
+ if ( days < 183) {
  return error;
-   else if ( 
+   else if ( days > 183) 
  } 
 return days_n_months;
 }
@@ -30,3 +30,4 @@ int main() {
 
 
 }
+kshfk
