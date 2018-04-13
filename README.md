@@ -8,11 +8,9 @@
  - Christiana Huiskens: Graphical interface for solar system
  - Denise Gaona: Physics functions in main,
 
-
-NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
-
 # DIRECTIONS:
 
+ - NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
  - It is the year 2077. Technology has advanced so that it is possible to travel to all 9 planets (YES PLUTO IS A PLANET) in a year, given you chose the right variables. 
  - You will input supplies (water, food, oxygen), velocity, and number of astronauts.
  - Program will give user amount of fuel (a full tank).
