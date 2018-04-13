@@ -25,12 +25,12 @@ NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
 
 # HEAP:
 
-- Use Priority queue from queue STL
-- Use this to store information about nearby planets( /moons?)
-- Minimum heap (with min as the root)
+- Use Priority queue from queue STL.
+- Use this to store information about nearby planets(Moon, Mars, ...).
+- Minimum heap (with min as the root).
 - Root will be the Planet that is nearest the rocket. Program will update the user as to which planet is nearest the rocket in "live" time.
 - Once rocket has passed a planet, its distance will be set to 10x its last distance. This allows the planet to still be stored in the heap, but all the way in bottom.
-- Heap will update as rocket travels through space and planets are "unlocked" (reached)
+- Heap will update as rocket travels through space and planets are "unlocked" (reached).
 
  
 # HASH TABLE:
@@ -47,8 +47,8 @@ NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
 
  # SCORE COUNT: 
  
- - Happening in main
- - All public variables for the sake of easiness
- - Keep track of: days, rocket fuel, velocity, general supplies (food, water, oxygen)
- - Functions: escape speed, gravitational pull of planets, distance travelled, acceleration (centripetal 
+ - Happening in main.
+ - All public variables for the sake of easiness.
+ - Keep track of: days, rocket fuel, velocity, general supplies (food, water, oxygen).
+ - Functions: escape speed, gravitational pull of planets, distance travelled, acceleration (centripetal).
  
