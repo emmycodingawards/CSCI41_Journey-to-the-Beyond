@@ -7,6 +7,7 @@
  - Hash Table: Emmy Issa
  - Score Count: Denise Gaona
  - Graphical Interface: Christiana Huiskens
+ - We all worked on main together except Christiana who labored over C# and Unity by herself.
 
 NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
 
