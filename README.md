@@ -50,5 +50,5 @@ NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
  - Happening in main
  - All public variables for the sake of easiness
  - Keep track of: days, rocket fuel, velocity, general supplies (food, water, oxygen)
- - Functions: escape speed, gravitational pull of planets, distance travelled, acceleration
+ - Functions: escape speed, gravitational pull of planets, distance travelled, acceleration (centripetal 
  
