@@ -52,10 +52,12 @@ double total_distance ( ) {
 
 
 int main() {
- cout << "5,4,3,2,1" << " " << " Welcome to Yenrek" << endl;
- cout << "It is the year 2077. Technology has advanced so that it is possible to travel to all 9 planets ( YES PLUTO IS A PLANET) in a year given tyou chose the right variables." << endl;
- cout << " Please input amount of water:" << endl; 
- cin >>  "
+ cout << "10...... 9....... 8...... 7..... 6..... 5...... 4...... 3...... 2........ 1.........." << endl;
+ cout << "Welcome aboard the Yenrick XLII!" << endl;
+ cout << "It is the year 2077. Technology has advanced so that it is possible to travel to all 9 planets in a year. << endl;
+ cout << "(Yes, the creators of this simulator still consider pluto to be a planet." << endl;
+ 
+ cout << "However, there are many variables that must be accounted for in order to complete a successful mission." << endl;
 
 
 }
