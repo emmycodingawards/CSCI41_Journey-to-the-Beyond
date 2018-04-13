@@ -35,16 +35,16 @@ const double G = 6.674*pow(10,-11); //universal gravitational constant for every
   const double mass = 6.42*pow(10,23);
  }
  else if (planet == "Jupiter"){
- const double radius = ;
- const double mass = ; 
+ const double radius = 71492000;
+ const double mass = 1.90*pow(10,27); 
  }
  else if ( planet == "Saturn"){
-  const double radius = ;
-  const double mass = ;
+  const double radius = 60268000;
+  const double mass = 5.68*pow(10,26);
  }
  else if (planet == "Uranus"){
-  const double radius = ;
-  const double mass = ;
+  const double radius =25559000 ;
+  const double mass = 8.68*pow(10,25);
  }
  else if (planet == "Neptune"){
   const double radius = ;
