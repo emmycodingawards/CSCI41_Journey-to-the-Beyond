@@ -26,9 +26,17 @@ double gravitational_pull( double Mass1, double Mass2, double rad){
  gravitational_force = G*Mass1*Mass2/pow(rad,2);
  return gravitational_force;
 }
-//acceleration
+//acceleration v1= previous escape_velocity v2=current escape velocity
+double acceleration_formula ( double v1, double v2, int t) {
+
+}
+// supposibly emmy and preet are going to do a distance vector
 
 int main() {
+ cout << "5,4,3,2,1" << " " << " Welcome to Yenrek" << endl;
+ cout << "It is the year 2077. Technology has advanced so that it is possible to travel to all 9 planets ( YES PLUTO IS A PLANET) in a year given tyou chose the right variables." << endl;
+ cout << " Please input amount of watter:" << endl; 
+ cin >>  "
 
 
 }
