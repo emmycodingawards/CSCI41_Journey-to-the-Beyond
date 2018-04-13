@@ -35,15 +35,15 @@ NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
  
 # HASH TABLE:
 
-- Using STL, unordered_map
-- Used to store information about astronauts
-- astro.h header file for our "astro" class declaring astronauts with 4-digit ID (int), name (string), health (int), time_on_rocket (float)
-- Associative will be Astro class and key will be ID (int)
+- Using STL, unordered_map.
+- Used to store information about astronauts.
+- astro.h header file for our "astro" class declaring astronauts with 4-digit ID (int), name (string), health (int), time_on_rocket (float).
+- Associative will be Astro class and key will be ID (int).
 
 # GRAPHICAL INTERFACE: 
 
- - Unity for graphics
- - Code will be in C# but will have to accomodate C++ user input code (main.cc and header file(s))
+ - Unity for graphics. 
+ - Code will be in C# but will have to accomodate C++ user input code (main.cc and header file(s)).
 
  # SCORE COUNT: 
  
