@@ -1,0 +1,29 @@
+//if unity doesnt work out I started a backup
+#include <iostream>
+#include <graphics>
+#include <stdlib>
+#include <conio.h>
+#include <math>
+#include <dos.h>
+
+class Planet{
+int x;
+int y;
+int rx;
+int ry;
+int color;
+int radius;
+int pos;
+float displacement;
+char* buffer;
+
+    public:
+Planet(){}
+~Planet() {delete buffer}
+
+Planet(const int, const int, const int, const float);
+void show();
+void move();
+void show_orbit();
+void get_nextpos();
+};
