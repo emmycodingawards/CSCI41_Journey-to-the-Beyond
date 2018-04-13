@@ -81,7 +81,12 @@ double centripetal_acceleration (string planet) { //double velocity) { //uses co
  if (planet == "Mercury") { const double r = ; }
  else if (planet == "Venus") { const double r = ;}
  else if (planet == "Earth") const double r = 6.38*pow(10,6); //radius in meters
-
+ else if ( planet == "Mars") { const double r = ;}
+ else if ( planet == "Jupiter") { const double r = ;}
+ else if ( planet == "Saturn") { const double r = ;}
+ else if ( planet == "Uranus") { const double r = ;}
+ else if ( planet == "Neptune") { const double r = ;}
+ else (planet == "Pluto"){ const double r }
  return double a = pow(v,2)/r; //centripetal acceleration in m/s^2
  }
 
