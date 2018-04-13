@@ -3,11 +3,11 @@
 
 # Mr. Kerney's Guide to Understanding Who-Is-Doing-What
 
- - Heap: Preet Jyotpreet
- - Hash Table: Emmy Issa
- - Score Count: Denise Gaona
- - Graphical Interface: Christiana Huiskens
- - We all worked on main together except Christiana who labored over C# and Unity by herself.
+ - Emmy Issa: Physics functions in main,
+ - Preet Jyotpreet: Splash text,
+ - Christiana Huiskens: Graphical interface for solar system
+ - Denise Gaona: Physics functions in main,
+
 
 NASA Rocket Name: Yenrek XLII (Kerney backwards and 24 in Roman Numerals)
 
