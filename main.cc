@@ -15,14 +15,46 @@ using namespace std;
 double escape_velocity (string planet) {
 const double G = 6.674*pow(10,-11); //universal gravitational constant for every planet
  if (planet == "Mercury") {
+  const double mass = 3.30*pow(10,23);
+  const double radius = 2449000;
  }
  else if (planet == "Venus") {
+  const double radius = 6052000;
+  const double mass = 4.87*pow(10,24);
  }
  else if (planet == "Earth") {
-  const double r = 6.38*pow(10,6); //radius in meters
-  const double M = 5.98*pow(10,-11); //mass in kilograms
+  const double radius = 6.38*pow(10,6); //radius in meters
+  const double mass = 5.98*pow(10,-11); //mass in kilograms
  }
- return double v = sqrt(2*G*M/r); //in m/s
+ else if (planet == "Moon"){
+  const double radius = 1738000;
+  const double mass = 7.35*pow(10,22);
+ }
+ else if (planet == "Mars"){
+  const double radius = 3397000;
+  const double mass = 6.42*pow(10,23);
+ }
+ else if (planet == "Jupiter"){
+ const double radius = ;
+ const double mass = ; 
+ }
+ else if ( planet == "Saturn"){
+  const double radius = ;
+  const double mass = ;
+ }
+ else if (planet == "Uranus"){
+  const double radius = ;
+  const double mass = ;
+ }
+ else if (planet == "Neptune"){
+  const double radius = ;
+  const double mass = ;
+ }
+ else (planet == "Pluto"){
+ const double radius = ;
+ const double mass = ;
+ }
+ return double v = sqrt(2*G*m/r); //in m/s
 }
 
 //Calculates gravitational pull for each planet
