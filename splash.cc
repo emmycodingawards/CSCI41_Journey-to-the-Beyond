@@ -13,64 +13,10 @@ using namespace std;
 
 /*
 class Herb;
-class Herbivore;
-class Carnivore;
+ 
+ 
 
-const unsigned char OPEN = '.'; //An open space
-const unsigned char WALL = '#'; //A wall space; impassable
-const unsigned char WATER = '~'; //Water, refreshes thirst
-const unsigned char HERB = '!'; //A plant, eaten by herbivores
-const unsigned char HERBIVORE = 'H'; //A plant eating dinosaur
-const unsigned char CARNIVORE = 'R'; //Eats herbivores
-
-//Globals holding game state
-int SIZE_X,SIZE_Y; //Dimensions of the world
-int cursor_x, cursor_y; //Cursor for drawing stuff
-unsigned char* world; //A character array holding our world
-vector<Herb> herbs;
-vector<Herbivore> herbivores; //Array of all herbivores in the world
-vector<Carnivore> carnivores; //Array of all carnivores in the world
-bool game_on; //Holds if the simulation is running
-
-const unsigned int MIN_SIZE = 8; //Minimum size of the world
-const unsigned int TIMEOUT = 300; //Milliseconds to wait for a getch to finish
-const int UP = 65; //Key code for up arrow
-const int DOWN = 66;
-const int LEFT = 68;
-const int RIGHT = 67;
-
-//2D to 1D array mapping
-//NOTE: creates a circular array
-//For example, access the world location (3,2) like this:
-//  world[index(3,2)]
-int index(int i, int j) {
-        while (i < 0) i+=SIZE_X;
-        while (j < 0) j+=SIZE_Y;
-        if (i >= SIZE_X) i %= SIZE_X;
-        if (j >= SIZE_Y) j %= SIZE_Y;
-        return (i*SIZE_Y+j);
-}
-
-class Herb {
-        public:
-                Herb () {}
-                Herb (int new_x, int new_y) : x(new_x), y(new_y) {}
-                int x = 0, y = 0; //Location
-                int fecundity = 5; //5% each frame to spread
-                int spread_radius = 2; //How many squares away we can create a new Herb
-                int food_value = 10; //How many moves of energy it provides
-                void think() { //AI For the plant
-                        if (rand() % 100 < fecundity) {
-                                int new_x = x + (rand() % (1 + spread_radius * 2)) - spread_radius; //Between -2 and +2 offset
-                                int new_y = y + (rand() % (1 + spread_radius * 2)) - spread_radius; //Between -2 and +2 offset
-                                if (world[index(new_x,new_y)] == OPEN) {
-                                        world[index(new_x,new_y)] = HERB; //Mark the spot on the map
-                                        herbs.push_back(Herb(new_x,new_y)); //Add our new herb to the herbs vector
-                                }
-                        }
-                }
-};
-
+ 
 class Herbivore {
         public:
                 Herbivore () {}
