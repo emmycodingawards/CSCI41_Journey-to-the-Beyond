@@ -1,8 +1,9 @@
 # Journey to the Beyond - Travels of the Yenrek XLII
 
 
-# Mr. Kerney's Guide to Understanding Who-Is-Doing-What
+# Mr. Kerney's Guide to Understanding Who-Did-What
 
+ - Basically, we all worked together on everything because we made an awesome team. Thank you for letting us be a group!!
  - Emmy Issa: Physics functions in main, hash table, heap, directions for user,
  - Preet Jyotpreet: Splash text, researching graphics,
  - Christiana Huiskens: Graphical interface for solar system, researching Unity, learning C#, researching graphics of all sorts, debugging, keeping Emmy's crazy overachieving ideas in check,
