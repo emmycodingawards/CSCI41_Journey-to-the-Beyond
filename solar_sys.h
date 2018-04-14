@@ -39,12 +39,9 @@ int pth (int x,int y)  {
     return sqrt (pow(x,2)+pow(y,2));
 }
 
-void print(){
-    int c=0;
-    int r=10;
-
-    const int width=r;
-    const int length=r*1.5;
+void draw(int r){
+    const int width = r;
+    const int length = r * 1.5;
 
     for (int y=width;y >= -width;y-=2)  {
         for (int x=-length;x <= length;x++)  {
@@ -55,7 +52,10 @@ void print(){
         }
         cout << "\n";
     }
-    cin.get();
+    //cin.get();
 }
 
-
+void print() {
+ int c = 0;
+    draw(c);
+}
