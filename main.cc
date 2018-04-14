@@ -11,6 +11,12 @@
 #include "planet.h"
 using namespace std;
 
+void die() {
+    cout << "Invalid Input!\n";
+    exit(1);
+}
+
+
 //Calculates escape velocity for each planet
 double escape_velocity (string planet) {
 const double G = 6.674*pow(10,-11); //universal gravitational constant for every planet
