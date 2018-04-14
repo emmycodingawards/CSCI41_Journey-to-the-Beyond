@@ -4,7 +4,7 @@
 # Mr. Kerney's Guide to Understanding Who-Did-What
 
  - Basically, we all worked together on everything because we made an awesome team. Thank you for letting us be a group!!
- - Emmy Issa: Physics functions in main, hash table, heap, directions for user,
+ - Emmy Issa: ReadMe, physics functions in main, hash table, heap, directions for user,
  - Preet Jyotpreet: Splash text, researching graphics,
  - Christiana Huiskens: Graphical interface for solar system, researching Unity, learning C#, researching graphics of all sorts, debugging, keeping Emmy's crazy overachieving ideas in check,
  - Denise Gaona: Physics functions in main, getting Kerney to extend deadline by a day
