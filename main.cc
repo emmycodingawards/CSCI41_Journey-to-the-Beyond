@@ -62,10 +62,10 @@ double gravitational_pull (string planet) {
  const double G = 6.674*pow(10,-11); //universal gravitational constant for every planet
  const double m_rocket = 2,800,000 //mass of rocket in kilograms
  double r =     //distance from rocket to each planet
- if (planet == "Mercury") { const double m_planet =; }
- else if (planet == "Venus") { const double m_planet =;}
- else if (planet == "Earth") { const double m_planet =; }
- else if ( planet == "Mars") { const double m_planet =; }
+ if (planet == "Mercury") { const double m_planet = 3.30*pow(10,23); }
+ else if (planet == "Venus") { const double m_planet = 4.87*pow(10,24);}
+ else if (planet == "Earth") { const double m_planet = 5.98*pow(10,-11); }
+ else if ( planet == "Mars") { const double m_planet = 6.42*pow(10,23); }
  else if ( planet == "Jupiter") { const double m_planet =;}
  else if ( planet == "Saturn") { const double m_planet =; }
  else if (planet == "Uranus") { const double m_planet =;}
@@ -78,9 +78,9 @@ else  ( planet == "Pluto") { const double m_planet =;}
 double centripetal_acceleration (string planet,double velocity) { //uses constant velocity user input
 // Hey emmy why are you passing in the escape velocity? you should just have it as a constant.
  if (planet == "Mercury") { const double r = ; }
- else if (planet == "Venus") { const double r = ;}
+ else if (planet == "Venus") { const double r = 6052000;}
  else if (planet == "Earth") const double r = 6.38*pow(10,6); //radius in meters
- else if ( planet == "Mars") { const double r = ;}
+ else if ( planet == "Mars") { const double r = 3397000 ;}
  else if ( planet == "Jupiter") { const double r = ;}
  else if ( planet == "Saturn") { const double r = ;}
  else if ( planet == "Uranus") { const double r = ;}
