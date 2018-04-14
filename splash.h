@@ -222,6 +222,33 @@ void splash5() {
     wait_ticks(0.75 * CLOCKS_PER_SEC);
     clear();
 }
+void words6(int frame) {
+    int x = 60-frame, y = 0, line = 0;
+
+    mvprintw(y+line++,x,"        ____        ");
+    mvprintw(y+line++,x,"       | ___|         ");
+    mvprintw(y+line++,x,"       |___ \\         ");
+    mvprintw(y+line++,x,"        ___) |     _   _   _   _   _   _   _   _   _            ");
+    mvprintw(y+line++,x,"       |____/     (_) (_) (_) (_) (_) (_) (_) (_) (_)      ");
+
+}
+void splash6() {
+    int x = 0, y = 0; //Holds offsets to draw the ASCII art
+    for (int i = 0; i < 60; i++) {
+        timeout(10);
+        int ch = getch(); //Allow them to hit a key to skip the splash screen
+        if (ch != ERR) return;
+
+        //Redraw splash screen
+        clear();
+        words6(i);
+        refresh();
+
+        wait_ticks(0.05 * CLOCKS_PER_SEC);
+    }
+    wait_ticks(0.75 * CLOCKS_PER_SEC);
+    clear();
+}
 
 
 
