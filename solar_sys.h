@@ -1,10 +1,7 @@
 //if unity doesnt work out I started a backup
 #include <iostream>
-#include <graphics>
-#include <stdlib>
-#include <conio.h>
-#include <math>
-#include <dos.h>
+#include <ncurses.h>
+#include <cmath>
 
 class Planet{
 int x;
@@ -28,7 +25,7 @@ void show_orbit();
 void get_nextpos();
 };
 
-Planet(const int new_rx,const int new_ry,const int new_radius, const float new_displacement){
+/*Planet(const int new_rx,const int new_ry,const int new_radius, const float new_displacement){
     rx=new_rx;
     ry=new_ry;
     x=(319+rx);
@@ -36,7 +33,7 @@ Planet(const int new_rx,const int new_ry,const int new_radius, const float new_d
     radius=new_radius;
     displacement=new_displacement;
     position=0;
-}
+}*/
 
 int pth (int x,int y)  {
     return sqrt (pow(x,2)+pow(y,2));
