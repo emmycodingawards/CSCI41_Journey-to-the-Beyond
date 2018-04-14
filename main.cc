@@ -85,4 +85,33 @@ double gravitational_pull(string planet) {
     return  F = G * m_rocket * m_planet / pow(r, 2);
 }
 
- 
+ //Calculates centripetal acceleration for each planet
+double centripetal_acceleration(string planet, double velocity) {  //uses constant velocity user input
+    double r = 0;  //radius in meters
+    double a = 0;  //centripetal acceleration in m/s^2
+    if (planet == "Mercury") {
+        r = 2449000;
+    } else if (planet == "Venus") {
+        r = 6052000;
+    } else if (planet == "Earth") {
+        r = 6.38 * pow(10, 6);
+    } else if (planet == "Mars") {
+        r = 3397000;
+    } else if (planet == "Jupiter") {
+        r = 71492000;
+    } else if (planet == "Saturn") {
+        r = 60268000;
+    } else if (planet == "Uranus") {
+        r = 25559000;
+    } else if (planet == "Neptune") {
+        r = 24766000;
+    } else if (planet == "Pluto") {
+        r = 1150000;
+    } else die();
+    return  a = pow(velocity, 2) / r;
+}
+
+//Calculates current distance from Earth
+double total_distance() {
+}
+
