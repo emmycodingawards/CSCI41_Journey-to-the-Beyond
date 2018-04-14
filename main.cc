@@ -77,7 +77,7 @@ else  ( planet == "Pluto") { const double m_planet = 1.27*pow(10,22);}
 //Calculates centripetal acceleration for each planet
 double centripetal_acceleration (string planet,double velocity) { //uses constant velocity user input
 // Hey emmy why are you passing in the escape velocity? you should just have it as a constant.
- if (planet == "Mercury") { const double r = ; }
+ if (planet == "Mercury") { const double r = 2449000; }
  else if (planet == "Venus") { const double r = 6052000;}
  else if (planet == "Earth") const double r = 6.38*pow(10,6); //radius in meters
  else if ( planet == "Mars") { const double r = 3397000 ;}
