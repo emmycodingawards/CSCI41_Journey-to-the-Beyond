@@ -11,52 +11,13 @@
 #include "splash.h"
 using namespace std;
 
-/*
-class Herb;
  
- 
-
- 
-        }
-}
-
-//Prints the entire world, bolding the square the cursor is on
-void print_world() {
-        for (int i = 0; i < SIZE_X; i++) {
-                for (int j = 0; j < SIZE_Y; j++) {
-                        if (i == cursor_x && j == cursor_y)
-                                attron(A_UNDERLINE | A_BOLD);
-                        int color = 1;
-                        if (world[index(i,j)] == WALL)
-                                color = 5;
-                        else if (world[index(i,j)] == WATER)
-                                color = 2;
-                        else if (world[index(i,j)] == HERB)
-                                color = 3;
-                        else if (world[index(i,j)] == HERBIVORE)
-                                color = 4;
-                        else if (world[index(i,j)] == CARNIVORE)
-                                color = 6;
-                        attron(COLOR_PAIR(color));
-                        mvaddch(i,j,world[index(i,j)]);
-                        attroff(COLOR_PAIR(color));
-                        attroff(A_UNDERLINE | A_BOLD);
-                }
-        }
-}
-*/
 int main()
 {
         //Initialize random number generator
         srand(time(NULL));
 
-//      cout << "How big a world do you want? (Enter x size followed by y then hit return): ";
-//      cin >> SIZE_Y >> SIZE_X; //Everything is backwards (x and y) in NCURSES
-//      if (!cin || SIZE_X < MIN_SIZE || SIZE_Y < MIN_SIZE) {
-//              cout << "Error: world size must be at least " << MIN_SIZE << " in each dimension.\n";
-//              return 1;
-//      }
-
+ 
         //Set up NCURSES
         initscr();//Start curses mode
         start_color(); //Enable Colors if possible
