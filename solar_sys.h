@@ -16,7 +16,7 @@ char* buffer;
 
     public:
 Planet(){}
-~Planet() {delete buffer}
+~Planet() {delete buffer;}
 
 Planet(const int, const int, const int, const float);
 void show();
