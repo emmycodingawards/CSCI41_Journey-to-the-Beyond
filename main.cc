@@ -66,11 +66,11 @@ double gravitational_pull (string planet) {
  else if (planet == "Venus") { const double m_planet = 4.87*pow(10,24);}
  else if (planet == "Earth") { const double m_planet = 5.98*pow(10,-11); }
  else if ( planet == "Mars") { const double m_planet = 6.42*pow(10,23); }
- else if ( planet == "Jupiter") { const double m_planet =;}
- else if ( planet == "Saturn") { const double m_planet =; }
- else if (planet == "Uranus") { const double m_planet =;}
- else if (planet == "Neptune") {const double m_planet =;}
-else  ( planet == "Pluto") { const double m_planet =;}
+ else if ( planet == "Jupiter") { const double m_planet = 1.90*pow(10,27);}
+ else if ( planet == "Saturn") { const double m_planet = 5.68*pow(10,26); }
+ else if (planet == "Uranus") { const double m_planet = 8.68*pow(10,25);}
+ else if (planet == "Neptune") {const double m_planet = 1.02*pow(10,26);}
+else  ( planet == "Pluto") { const double m_planet = 1.27*pow(10,22);}
  return double F = G*m_rocket*m_planet/pow(r,2); //force of gravity in Newtons
 }
 
@@ -81,11 +81,11 @@ double centripetal_acceleration (string planet,double velocity) { //uses constan
  else if (planet == "Venus") { const double r = 6052000;}
  else if (planet == "Earth") const double r = 6.38*pow(10,6); //radius in meters
  else if ( planet == "Mars") { const double r = 3397000 ;}
- else if ( planet == "Jupiter") { const double r = ;}
- else if ( planet == "Saturn") { const double r = ;}
- else if ( planet == "Uranus") { const double r = ;}
- else if ( planet == "Neptune") { const double r = ;}
- else (planet == "Pluto"){ const double r }
+ else if ( planet == "Jupiter") { const double r = 71492000;}
+ else if ( planet == "Saturn") { const double r = 60268000 ;}
+ else if ( planet == "Uranus") { const double r = 25559000;}
+ else if ( planet == "Neptune") { const double r = 24766000;}
+ else (planet == "Pluto"){ const double r = 1150000; }
  return double a = pow(v,2)/r; //centripetal acceleration in m/s^2
  }
 
