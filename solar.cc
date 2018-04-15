@@ -15,27 +15,6 @@ int SIZE_X = 20;//dim of world
 int SIZE_Y = 20;
 const unsigned char WALL = '*';//star walls of "world"
 unsigned char* world;// array holding world
-/*class Planet{
-int x;
-int y;
-int rx;
-int ry;
-int color;
-int radius;
-int pos;
-float displacement;
-char* buffer;
-
-    public:
-Planet(){}
-~Planet() {delete buffer;}
-
-Planet(const int, const int, const int, const float);
-void show();
-void move();
-void show_orbit();
-void get_nextpos();
-};*/
 
 int index(int i, int j) {
     int c = 0;
