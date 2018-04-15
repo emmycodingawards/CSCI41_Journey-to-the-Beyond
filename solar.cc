@@ -9,12 +9,12 @@
 #include <queue>
 #include <set>
 using namespace std;
-bool rocket;//moving into orbit
-int cursor_x, cursor_y;
+bool rocket;//moving into orbit when running
+int cursor_x, cursor_y; // to draw stuff
 int SIZE_X = 20;//dim of world
 int SIZE_Y = 20;
-const unsigned char WALL = '*';
-unsigned char* world;
+const unsigned char WALL = '*';//star walls of "world"
+unsigned char* world;// array holding world
 /*class Planet{
 int x;
 int y;
