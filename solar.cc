@@ -42,6 +42,12 @@ void print_world() {
                 attron(A_UNDERLINE | A_BOLD);
             int color = 1;
             attroff(A_UNDERLINE | A_BOLD);//error??
+            if (world[index(i,j)] == WALL)
+                color = 5;
+            attron(COLOR_PAIR(color));
+            mvaddch(i,j,world[index(i,j)]);
+            attroff(COLOR_PAIR(color));
+            attroff(A_UNDERLINE | A_BOLD);
         }
     }
 }
