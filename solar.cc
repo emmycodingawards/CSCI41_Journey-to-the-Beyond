@@ -1,3 +1,4 @@
+#include "solar.h"
 #include <ncurses.h>
 #include <cmath>
 #include <iostream>
