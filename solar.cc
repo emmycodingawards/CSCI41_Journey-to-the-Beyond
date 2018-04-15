@@ -1,9 +1,21 @@
-//if unity doesnt work out I started a backup
-#include <iostream>
 #include <ncurses.h>
 #include <cmath>
-
-class Planet{
+#include <iostream>
+#include <ctime>
+#include <cstdlib>
+#include <utility>
+#include <limits>
+#include <vector>
+#include <queue>
+#include <set>
+using namespace std;
+bool rocket;//moving into orbit
+int cursor_x, cursor_y;
+int SIZE_X = 20;//dim of world
+int SIZE_Y = 20;
+const unsigned char WALL = '*';
+unsigned char* world;
+/*class Planet{
 int x;
 int y;
 int rx;
@@ -23,14 +35,7 @@ void show();
 void move();
 void show_orbit();
 void get_nextpos();
-};
-
-struct World{
-    const unsigned char WALL = '*';
-    unsigned char* world;
-    int SIZE_X = 40;
-    int SIZE_Y = 40;
-}
+};*/
 
 int index(int i, int j) {
     int c = 0;
@@ -49,6 +54,17 @@ void reset_world() {
         }
     }
 }
+void print_world() {
+    for (int i = 0; i < SIZE_X; i++) {
+        for (int j = 0; j < SIZE_Y; j++) {
+            if (i == cursor_x && j == cursor_y)
+                attron(A_UNDERLINE | A_BOLD);
+            int color = 1;
+            attroff(A_UNDERLINE | A_BOLD);
+        }
+    }
+}
+
 int pth (int x,int y)  {
     return sqrt (pow(x,2)+pow(y,2));
 }
@@ -69,7 +85,12 @@ void draw(int r){//drawing circles
     //cin.get();
 }
 
-void print() {
- int c = 0;
-    draw(c);
-}
+int main (){
+
+
+        for (int i = 10; i <= 10 ; i++){
+            draw(i);
+        }
+        print_world();
+    }
+                                                                  74,1-4        Bot
