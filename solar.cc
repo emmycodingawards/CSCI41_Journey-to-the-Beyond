@@ -11,8 +11,9 @@
 using namespace std;
 bool rocket;//moving into orbit when running
 int cursor_x, cursor_y; // to draw stuff
-int SIZE_X = 20;//dim of world
-int SIZE_Y = 20;
+int SIZE_X = 40;//dim of world
+int SIZE_Y = 40;
+const unsigned int TIMEOUT = 300;
 const unsigned char WALL = '*';//star walls of "world"
 unsigned char* world;// array holding world
 
@@ -65,6 +66,40 @@ void draw(int r){//drawing circles
 }
 
 int main (){
+   srand(time(NULL));
+
+    //Set up NCURSES
+    initscr();//Start curses mode
+    start_color(); //Enable Colors if possible
+    init_pair(1,COLOR_WHITE,COLOR_BLACK); //Set up some color pairs
+    init_pair(2,COLOR_CYAN,COLOR_BLACK);
+    init_pair(3,COLOR_GREEN,COLOR_BLACK);
+    init_pair(4,COLOR_YELLOW,COLOR_BLACK);
+    init_pair(5,COLOR_RED,COLOR_BLACK);
+    init_pair(6,COLOR_MAGENTA,COLOR_BLACK);
+    clear();
+    noecho();
+    cbreak();
+    timeout(TIMEOUT); //Set a max delay for key entry
+
+     solar();
+         timeout(TIMEOUT); //Set a max delay for key entry
+             clear();
+
+
+    world = new unsigned char[SIZE_X * SIZE_Y];
+    reset_world();
+    
+        int frame = 0;
+    cursor_x = SIZE_X/2, cursor_y = SIZE_Y/2; //Cursor for drawing stuff
+    rocket = false;
+    while (true) {
+        if (!rocket)
+            mvprintw(SIZE_X,0,"Simulation Paused                                        ");
+        else
+
+            mvprintw(SIZE_X+7,0,"Type Enter to run or pause the simulation");
+    }
 
 
         for (int i = 10; i <= 10 ; i++){
