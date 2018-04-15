@@ -25,15 +25,12 @@ void show_orbit();
 void get_nextpos();
 };
 
-/*Planet(const int new_rx,const int new_ry,const int new_radius, const float new_displacement){
-    rx=new_rx;
-    ry=new_ry;
-    x=(319+rx);
-    y=240;
-    radius=new_radius;
-    displacement=new_displacement;
-    position=0;
-}*/
+struct World{
+    const unsigned char WALL = '*';
+    unsigned char* world;
+    int SIZE_X = 40;
+    int SIZE_Y = 40;
+}
 
 int pth (int x,int y)  {
     return sqrt (pow(x,2)+pow(y,2));
