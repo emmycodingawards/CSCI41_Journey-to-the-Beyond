@@ -39,7 +39,7 @@ void print_world() {
             if (i == cursor_x && j == cursor_y)
                 attron(A_UNDERLINE | A_BOLD);
             int color = 1;
-            attroff(A_UNDERLINE | A_BOLD);
+            attroff(A_UNDERLINE | A_BOLD);//error??
         }
     }
 }
