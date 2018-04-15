@@ -95,7 +95,7 @@ int main (){
     rocket = false;
     while (true) {
         if (!rocket)
-            mvprintw(SIZE_X,0,"Simulation Paused                                        ");
+            mvprintw(SIZE_X,0,"Simulation Paused");
         else
 
             mvprintw(SIZE_X+7,0,"Type Enter to run or pause the simulation");
