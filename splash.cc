@@ -46,6 +46,12 @@ int main()
         splash5();
         cin.ignore();
         splash6();
+        cin.ignore(); 
+        splash7();
+        cin.ignore();
+
+ 
+ 
         //timeout(TIMEOUT); //Set a max delay for key entry
         clear();
 
