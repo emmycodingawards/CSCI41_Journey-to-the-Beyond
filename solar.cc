@@ -110,5 +110,15 @@ int main (){
     //print_world();
     //refresh();
 
+clear();
+print_world();
+refresh();
+wait_ticks(300000);
+endwin(); // End curses mode
+system("clear");
+
+return 0;
+}
+
 
                                                                   74,1-4        Bot
