@@ -249,6 +249,37 @@ void splash6() {
     wait_ticks(0.75 * CLOCKS_PER_SEC);
     clear();
 }
+void words7(int frame) {
+    int x = 60-frame, y = 0, line = 0;
+
+    mvprintw(y+line++,x,"     _  _          ");
+    mvprintw(y+line++,x,"    | || |        ");
+    mvprintw(y+line++,x,"    | || |_    ");
+    mvprintw(y+line++,x,"    |__   _|   _   _   _   _   _   _   _   _   _                ");
+    mvprintw(y+line++,x,"       |_|    (_) (_) (_) (_) (_) (_) (_) (_) (_)          ");
+
+    mvprintw(y+line++,x," ");
+    mvprintw(y+line++,x," ");
+    mvprintw(y+line++,x," Please 'ENTER' to continue... ");
+}
+void splash7() {
+    int x = 0, y = 0; //Holds offsets to draw the ASCII art
+    for (int i = 0; i < 60; i++) {
+        timeout(10);
+        int ch = getch(); //Allow them to hit a key to skip the splash screen
+        if (ch != ERR) return;
+
+        //Redraw splash screen
+        clear();
+        words7(i);
+        refresh();
+
+        wait_ticks(0.05 * CLOCKS_PER_SEC);
+    }
+    wait_ticks(0.75 * CLOCKS_PER_SEC);
+    clear();
+}
+
 
 
 
