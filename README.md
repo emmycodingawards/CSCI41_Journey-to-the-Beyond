@@ -6,7 +6,7 @@
  - Basically, we all worked together on everything because we made an awesome team. Thank you for letting us be a group!!
  - Emmy Issa: ReadMe, physics functions in main, hash table, heap, directions for user,
  - Preet Jyotpreet: Splash text, researching graphics,
- - Christiana Huiskens: Graphical interface for solar system, researching Unity, learning C#, researching graphics of all sorts, debugging, keeping Emmy's crazy overachieving ideas in check,
+ - Christiana Huiskens: Graphical interface for solar system, researching Unity, learning C#, researching graphics of all sorts (dev c++ with graphics.h, unity, ncurses), debugging, keeping Emmy's crazy overachieving ideas in check, wrote about 5 different codes and had to restart 5 times.
  - Denise Gaona: Physics functions in main, getting Kerney to extend deadline by a day
 
 # DIRECTIONS:
@@ -41,8 +41,10 @@
 
 # GRAPHICAL INTERFACE: 
 
- - Unity for graphics. 
- - Code will be in C# but will have to accomodate C++ user input code (main.cc and header file(s)).
+ - Unity for graphics. //tried but computer crashed and lost everything. Wrote code in c# and had planets.
+ - Tried using Dev C++ with graphics.h didnt work (wrote code for that)
+ - Tried printing circles using cout statements worked but couldn't print Concentric circles
+ -NOW using ncurses.h 
 
  # SCORE COUNT: 
  
