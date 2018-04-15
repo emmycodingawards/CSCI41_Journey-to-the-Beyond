@@ -105,6 +105,10 @@ int main (){
         for (int i = 10; i <= 10 ; i++){
             draw(i);
         }
-        print_world();
-    }
+      //  print_world();
+    //clear();
+    //print_world();
+    //refresh();
+
+
                                                                   74,1-4        Bot
