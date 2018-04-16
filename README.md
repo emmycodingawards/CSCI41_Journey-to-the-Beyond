@@ -8,8 +8,8 @@ So we kinda overacheived a ton and didn't manage to quite reach the overachievem
 # Mr. Kerney's Guide to Understanding Who-Did-What
 
  - Basically, we all worked together on everything because we made an awesome team. Thank you for letting us be a group. Please Kerney go by the amount of LINES we wrote, and not by COMMITS. 
- - Emmy Issa: ReadMe, physics functions in main, hash table, heap, directions for user,
- - Preet Jyotpreet: Splash text, researching graphics,
+ - Emmy Issa: ReadMe, physics functions in main, hash table, (heap), directions for user, main.cc
+ - Preet Jyotpreet: Splash text, researching graphics, Unity
  - Christiana Huiskens: Graphical interface for solar system, researching Unity, learning C#, researching graphics of all sorts (dev c++ with graphics.h, unity, ncurses), debugging, keeping Emmy's crazy overachieving ideas in check
  - Denise Gaona: Physics functions in main, getting Kerney to extend deadline by a day
 
