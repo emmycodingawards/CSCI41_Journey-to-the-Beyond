@@ -6,7 +6,7 @@
  - Basically, we all worked together on everything because we made an awesome team. Thank you for letting us be a group. Please Kerney go by the amount of LINES we wrote, and not by COMMITS. 
  - Emmy Issa: ReadMe, physics functions in main, hash table, heap, directions for user,
  - Preet Jyotpreet: Splash text, researching graphics,
- - Christiana Huiskens: Graphical interface for solar system, researching Unity, learning C#, researching graphics of all sorts (dev c++ with graphics.h, unity, ncurses), debugging, keeping Emmy's crazy overachieving ideas in check, wrote about 5 different codes and had to restart 5 times.
+ - Christiana Huiskens: Graphical interface for solar system, researching Unity, learning C#, researching graphics of all sorts (dev c++ with graphics.h, unity, ncurses), debugging, keeping Emmy's crazy overachieving ideas in check
  - Denise Gaona: Physics functions in main, getting Kerney to extend deadline by a day
 
 # DIRECTIONS:
