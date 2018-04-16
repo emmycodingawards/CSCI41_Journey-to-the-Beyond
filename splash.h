@@ -17,6 +17,7 @@ void words(int frame) {
         mvprintw(y+line++,x,"            \\ V /  |  _|    |  \\| | | |_) | |  _|   | ' /    _____  | || |_    __) |   ");
         mvprintw(y+line++,x,"             | |   | |___   | |\\  | |  _ <  | |___  | . \\   |_____| |__   _|  / __/   ");
         mvprintw(y+line++,x,"             |_|   |_____|  |_| \\_| |_| \\_\\ |_____| |_|\\_\\             |_|   |_____| ");
+        mvprintw(y+line++,x," ");
         mvprintw(y+line++,x,"(c) 2018 PREET JYOTPREET");
         mvprintw(y+line++,x,"(c) 2018 EMMY ISSA");
         mvprintw(y+line++,x,"(c) 2018 CHRISTIANA HUISKENS");
