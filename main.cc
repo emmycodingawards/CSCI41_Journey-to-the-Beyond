@@ -295,3 +295,17 @@ splash4();
     } else if (velocity > 20000 || velocity < 60000) {
         badstuff = 0;
     }
+
+    cout << "STEP TWO::" << endl;
+    cout << "Press 'Enter' to Continue" << endl;
+    cin.ignore();
+    cout << "You must choose what order the Yenrick XLII will visit the planets in." << endl;
+    cout << "The options are as follows:" << endl;
+    cout << "1) Travel to Venus and Mercury, turn back to go all the way out to Pluto, then return to Earth." << endl;
+    cout << "2) Travel to Venus and Mercury, turn back to make a pit-stop at Earth, then continue onwards to Pluto before returning to Earth." << endl;
+    cout << "3) Travel to Pluto, turn back and travel to Mercury, then return to Earth." << endl;
+    cout << "4) Tavel to Pluto, turn back to make a pit-stop at Earth, then continue onwards to Mercury before returning to Earth." << endl;
+    cout << endl;
+    cout << "Enter the number of the option you wish to choose." << endl;
+    int choice = 0;
+    cin >> choice;
