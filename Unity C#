@@ -22,11 +22,8 @@ public class MovementControls : MonoBehaviour //movement class
 		transform.Rotate(Vector3.up * turnMovement);
 	}
 }
-
-using UnityEngine;
- using System.Collections;
  
- public class testRotate2 : MonoBehaviour {
+ public class testRotate2 : MonoBehaviour { //orbit class
      
      GameObject sphere;
      public Transform center;
