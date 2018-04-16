@@ -1,3 +1,7 @@
+#GOOD. GRIEF.
+So we kinda overacheived a ton and didn't manage to quite reach the overachievement levels of our overachieving aspirations within the given timeframe.
+
+
 # Journey to the Beyond - Travels of the Yenrek XLII
 
 
