@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-//Astronaut constructor
+//Astronaut constructor(s)
 //Initializes every astronaut
 
 struct Astro {
