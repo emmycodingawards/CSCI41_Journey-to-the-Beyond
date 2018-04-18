@@ -22,6 +22,11 @@ void die() {
     exit(1);
 }
 
+void ClearScreen() {
+    cout << string(100, '\n' );
+}
+
+
 
 //Calculates escape velocity for each planet
 double escape_velocity(string planet) {
@@ -45,12 +50,12 @@ double escape_velocity(string planet) {
         radius = 3397000;
         mass = 6.42 * pow(10, 23);
     } else if (planet == "Jupiter") {
-        radius = 71492000;
+ radius = 71492000;
         mass = 1.90 * pow(10, 27);
     } else if (planet == "Saturn") {
         radius = 60268000;
         mass = 5.68 * pow(10, 26);
- } else if (planet == "Uranus") {
+    } else if (planet == "Uranus") {
         radius = 25559000;
         mass = 8.68 * pow(10, 25);
     } else if (planet == "Neptune") {
@@ -96,12 +101,12 @@ double gravitational_pull(string planet) {
 double centripetal_acceleration(string planet, double velocity) {  //uses constant velocity user input
     double r = 0;  //radius in meters
     double a = 0;  //centripetal acceleration in m/s^2
-    if (planet == "Mercury") {
+ if (planet == "Mercury") {
         r = 2449000;
     } else if (planet == "Venus") {
         r = 6052000;
     } else if (planet == "Earth") {
- r = 6.38 * pow(10, 6);
+        r = 6.38 * pow(10, 6);
     } else if (planet == "Mars") {
         r = 3397000;
     } else if (planet == "Jupiter") {
@@ -126,6 +131,7 @@ double total_distance() {
 
 int main() {
 
+    /*  
     //Initialize random number generator
     srand(time(NULL));
 
@@ -140,7 +146,7 @@ int main() {
     init_pair(5,COLOR_RED,COLOR_BLACK);
     init_pair(6,COLOR_MAGENTA,COLOR_BLACK);
     clear();
-    noecho();
+ noecho();
     cbreak();
     //timeout(TIMEOUT); //Set a max delay for key entry
 
@@ -153,12 +159,12 @@ int main() {
     cin.ignore();
     splash3();
     cin.ignore();
-splash4();
+    splash4();
     cin.ignore();
     splash5();
     cin.ignore();
     splash6();
-    cin.ignore();
+    cin.ignore(); 
     splash7();
     cin.ignore();
     splash8();
@@ -169,13 +175,16 @@ splash4();
 
     //timeout(TIMEOUT); //Set a max delay for key entry
     clear();
+    */
 
+    ClearScreen();
 
+    cout << "10... 9... 8... 7... 6... 5... 4... 3... 2... 1..." << endl;
     cout << "WELCOME ABOARD THE YENRECK XLII!" << endl;
 
     cout << "Press 'Enter' to embark on your Journey to the Beyond simulation." << endl << endl;
     cin.ignore();
-
+    clear();
     cout << "It is the year 2077. Technology has advanced so that it is possible to travel to all 9 planets in a year." << endl;
     cout << "(Yes, the creators of this simulator still consider Pluto to be a planet.)" << endl;
     cout << "However, there are many variables that must be accounted for in order to complete a successful mission." << endl;
@@ -184,9 +193,14 @@ splash4();
     cout << "The mission is to travel to and photograph as many planets as possible within a span of a year." << endl;
     cout << "Press 'Enter' to Continue" << endl << endl;
     cin.ignore();
+ clear();
 
     unordered_map <int, Astro> datamap; //HASH TABLE
+    vector <AstroAge> astroage;
     vector <string> rankname;
+    vector <int> age;
+
+    make_heap (astroage.begin(), astroage.end());
 
     cout << "STEP ONE::" << endl;
     cout << "You must choose how many astronauts you wish to send on the Yenreck XLII." << endl;
@@ -197,28 +211,51 @@ splash4();
     cout << "You may choose to send 2 to 6 astronauts on this mission." << endl;
     cout << endl;
     cout << "Enter your number of astronauts:" << endl;
-     try {
+
+    try {
         while (cin) {
+
+            string name;
+            string rank;
+            int ID = 0;
+            int age = 0;
+
             int astronum = 0;
             cin >> astronum;
-            //Cannot have more than 6 or less than 2 astronauts
-            if (!cin || astronum < 2 || astronum > 6) die();
-            cout << endl;
+            //Cannot have less than 2 or more than 6 astronauts
+            if (astronum < 2) {
+                cout << "You have entered too few astronauts." << endl;
+                die();
+            } else if (astronum > 6) {
+                cout << "You have entered too many astronauts." << endl;
+                die();
+            }
+  cout << endl;
 
-            cout << "Enter the name and unique 4-digit ID for each of your astronauts:" << endl;
+            cout << "Enter the name for one of your astronauts:" << endl;
             cout << "(Enter \"DONE\" for the name once you have added all your astronauts)" << endl;
             // 1:: Name (string)
-            string name;
-            cin.ignore();
-            getline(cin, name);
-            if (name == "DONE") break;
-            if (!cin) die();
-            rankname.push_back(name);
+            while (cin) {
+                cin.ignore();
+                getline(cin, name);
+                if (name == "DONE") break;
+                if (!cin) die();
+                rankname.push_back(name);
 
-            cout << "This is the size of the map:" << rankname.size() << endl;
+                cout << "This is the size of the map:" << rankname.size() << endl;
+            }
 
-            // 2:: Ranking
-            string rank;
+            // 2:: Astronaut ID
+            string s;
+            //  cin.ignore();
+            getline(cin, s);
+            ID = stoi(s);
+            //  cin >> ID;
+            //ID cannot be negative
+            if (!cin || ID <= 0) die();
+
+            // 3:: Ranking
+            cout << "Looking up NASA astronaut database based on ID..." << endl;
             if (rankname.size() == 1) {
                 rank = "Commander";
                 cout << name << "'s rank is a Commander." << endl;
@@ -227,7 +264,7 @@ splash4();
                 cout << name << "'s rank is a Pilot." << endl;
             } else if (rankname.size() == 3) {
                 rank = "Mission Specialist";
-                cout << name << "'s rank is a Mission Specialist." << endl;
+  cout << name << "'s rank is a Mission Specialist." << endl;
             } else if (rankname.size() == 4) {
                 rank = "Flight Engineer";
                 cout << name << "'s rank is a Flight Engineer." << endl;
@@ -242,26 +279,25 @@ splash4();
                 die();
             }
 
-            // 3:: Astronaut ID
-            int ID = 0;
-            string s;
-            cin.ignore();
-            getline(cin, s);
-            ID = stoi(s);
-            cin >> ID;
-//ID cannot be negative
-            if (!cin || ID <= 0) die();
+            // 4:: Age
+            cout << "Enter age of astronaut:" << endl;
+            string a;
+            getline(cin, a);
+            age = stoi(a);
+            //ID cannot be negative
+            if (!cin || age <= 0) die();
 
-            Astro a = {name, rank, ID};
+            Astro yas = {name, rank, ID};
+            AstroAge aa = {name, rank, ID, age};
 
             //Checks to make sure IDs are unique and not already in data structure
             auto keypointer = datamap.find(ID);
             if (keypointer != datamap.end()) die();
 
             //Stores ID in hash table
-            datamap.insert({ID, a});
+            datamap.insert({ID, yas});
 
-            //Cannot have more than 6 astronauts
+            //Cannot have less than 2 or more than 6 astronauts
             if (datamap.size() < 2) {
                 cout << "You have entered too few astronauts." << endl;
                 die();
@@ -272,8 +308,7 @@ splash4();
         }
     }
     catch (...) { die(); }
-
-    cout << endl << endl;
+  cout << endl << endl;
     cout << "STEP TWO::" << endl;
     cout << "Press 'Enter' to Continue" << endl << endl;
     cin.ignore();
@@ -289,11 +324,11 @@ splash4();
         cout << "You have entered a velocity outside the required range." << endl;
         die();
     } else if (velocity < 35000) {
-        badstuff = 3;
+        int badstuff = 3;
     } else if (velocity > 45000) {
-        badstuff = 5;
+        int badstuff = 5;
     } else if (velocity > 20000 || velocity < 60000) {
-        badstuff = 0;
+        int badstuff = 0;
     }
 
     cout << "STEP TWO::" << endl;
@@ -306,6 +341,16 @@ splash4();
     cout << "3) Travel to Pluto, turn back and travel to Mercury, then return to Earth." << endl;
     cout << "4) Tavel to Pluto, turn back to make a pit-stop at Earth, then continue onwards to Mercury before returning to Earth." << endl;
     cout << endl;
-    cout << "Enter the number of the option you wish to choose." << endl;
+    cout << "Enter the number of the option you wish to choose:" << endl;
     int choice = 0;
     cin >> choice;
+   while (cin) {
+        cout << "Enter the planet you have just arrived to:" << endl;
+        string planet;
+        getline(cin, planet);
+        escape_velocity(planet);
+        gravitational_pull(planet);
+        centripetal_acceleration(planet, velocity);
+    }
+
+}
