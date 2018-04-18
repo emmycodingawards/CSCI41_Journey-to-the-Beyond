@@ -345,7 +345,7 @@ int main() {
     int choice = 0;
     cin >> choice;
    while (cin) {
-        cout << "Enter the planet you have just arrived to:" << endl;
+        cout << "Enter the planet you have just arrived at:" << endl;
         string planet;
         getline(cin, planet);
         escape_velocity(planet);
